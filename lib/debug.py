@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-from conference_badges import (
-    badge_maker, batch_badge_creator,
-    assign_rooms, printer
+from deli_counter import (
+    line, take_a_number, now_serving
 )
 
 if __name__ == '__main__':
