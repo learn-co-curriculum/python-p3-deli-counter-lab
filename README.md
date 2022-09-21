@@ -44,21 +44,27 @@ katz_deli = []
 
 Write all of your code in `lib/deli_counter.py`
 
-1. Build the `line()` function that shows everyone their current place in the
-   line. If there is nobody in line, it should say `"The line is currently
-   empty."`.
+### `line()`
 
-2. Build a function that a new customer will use when entering the deli. The
-   `take_a_number()` function should accept two arguments, the list for the
-   current line of people (`katz_deli`), and a string containing the name of the
-   person joining the end of the line. The function should call out (i.e.,
-   `print`) the person's name along with their position in line. **Top-Tip:**
-   _Remember that people like to count from 1, not from 0 like computers._
+Build the `line()` function that shows everyone their current place in the line.
+If there is nobody in line, it should say `"The line is currently empty."`.
 
-3. Build the `now_serving()` function which should call out (`print`) the next
-   person in line and then remove them from the front. If there is nobody in
-   line, it should call out (`print`) that `"There is nobody waiting to be
-   served!"`.
+### `take_a_number()`
+
+Build a function that a new customer will use when entering the deli. The
+`take_a_number()` function should accept two arguments, the list for the current
+line of people (`katz_deli`), and a string containing the name of the person
+joining the end of the line. The function should call out (i.e., `print`) the
+person's name along with their position in line.
+
+**Top-Tip:** Remember that people like to count from 1, not from 0 like
+computers.
+
+### `now_serving()`
+
+Build the `now_serving()` function which should call out (`print`) the next
+person in line and then remove them from the front. If there is nobody in line,
+it should call out (`print`) that `"There is nobody waiting to be served!"`.
 
 Example usage:
 
